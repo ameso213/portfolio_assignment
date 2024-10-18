@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.portfolio-container {
+    display: flex;
+    background-color: rgb(8, 8, 8);
+    
+    box-shadow: 0 4px 10px rgba(68, 68, 68, 0.1);
+    overflow: hidden;
+}
+
+.image-container,
+.info-container {
+    flex: 1; 
+    padding: 20px;
+   
+    margin: 5px; 
+    box-sizing: border-box; 
+}
+
+.image-container {
+    background-color: #252525;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+     
+}
+
+h1 {
+    margin: 0 0 10px;
+    font-size: 4rem;
+    color: #f4f4f4;
+}
+
+p {
+    font-size: 1.4rem;
+    margin: 5px 0;
+    color: #f4f4f4;
+    line-height: 1.5;
+}
+
+
+
